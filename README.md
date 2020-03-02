@@ -22,4 +22,4 @@ We provided two example dataset in the ```examples\``` directory. It is importan
 python SynResampleClass.py examples\TextureSession_DFS_v2.csv result_output --target DFS --index ID
 ```
 
-If there is any problems or questions, please email du94@hku.hk
+If there are any problems or questions, please email du94@hku.hk
