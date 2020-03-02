@@ -6,7 +6,7 @@ This is a python script to conduct analysis on the impact of synthetic resamplin
 ### Installation
 We strongly recommend using Anaconda 3 enviroments which can be downloaded in from their [website](https://www.anaconda.com/distribution/#download-section). All requirements are given in ```requirements.txt```. 
 For example from the anaconda3 prompt:
-``` python
+```
 (base) C:\> cd path-to-this-directory
 (base) C:\path-to-this-directory> conda create -n resample python=3.6
 (base) C:\path-to-this-directory> conda activate resample
@@ -14,11 +14,11 @@ For example from the anaconda3 prompt:
 ```
 ### Usage
 For usage of the script please use the help argument:
-``` python
+```
 python SynResamplingClass.py --help
 ```
 We provided two example dataset in the ```examples\``` directory. It is important to set the ```--target``` and ```--index``` headers as the same as the header in the data csv. For example:
-```python
+```
 python SynResamplingClass.py examples\TextureSession_DFS_v2.csv result_output --target DFS --index ID
 ```
 
