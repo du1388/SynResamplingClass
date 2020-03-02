@@ -8,14 +8,18 @@ We strongly recommend using Anaconda 3 enviroments which can be downloaded in fr
 For example from the anaconda3 prompt:
 ``` python
 (base) C:\> cd path-to-this-directory
-(base) C:\path-to-this-directory> conda create -n synresample python=3.6
-(base) C:\path-to-this-directory> conda activate synresample
-(synresample) C:\path-to-this-directory> pip install -r requirements.txt
+(base) C:\path-to-this-directory> conda create -n resample python=3.6
+(base) C:\path-to-this-directory> conda activate resample
+(resample) C:\path-to-this-directory> pip install -r requirements.txt
+```
+### Usage
+For usage of the script please use the help argument:
+``` python
+(resample) C:\path-to-this-directory> python SynResamplingClass.py --help
+```
+We provided two example dataset in the ```examples\``` directory. It is important to set the ```--target``` and ```--index``` headers as the same as the header in the data csv. For example:
+```python
+(synresample) C:\path-to-this-directory> python SynResamplingClass.py examples\TextureSession_DFS_v2.csv result_output --target DFS --index ID
 ```
 
-For usage of the script please use help argument:
-``` python
-python SynResamplingClass --help
-```
-### Introduction
-More details to be added...
+If there is any problems or questions, please email du94@hku.hk
