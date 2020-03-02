@@ -17,7 +17,7 @@ For usage of the script please use the help argument:
 ```
 python SynResampleClass.py --help
 ```
-We provided two example dataset in the ```examples\``` directory. It is important to set the ```--target``` and ```--index``` headers as the same as the header in the data csv. For example:
+We provided two example datasets in the ```examples\``` directory. It is important to set the ```--target``` and ```--index``` headers as the same as the header in the data csv. For example:
 ```
 python SynResampleClass.py examples\TextureSession_DFS_v2.csv result_output --target DFS --index ID
 ```
