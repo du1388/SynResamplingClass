@@ -1,8 +1,7 @@
 # Synthetic Resampling Techniques for Classification Modelling
 
 ### Introduction
-This is a python script to conduct analysis on the impact of synthetic resampling techniques on the performance of binary classification models. For more information please check out our publication in [EJNMMI](https://doi.org/10.1007
-/s00259-020-04756-4).
+This is a python script to conduct analysis on the impact of synthetic resampling techniques on the performance of binary classification models. For more information please check out our publication in [EJNMMI](https://doi.org/10.1007/s00259-020-04756-4).
 
 ### Installation
 To avoid clashes in package dependancies, we strongly recommend using Anaconda 3 enviroments which can be downloaded in from their [website](https://www.anaconda.com/distribution/#download-section). All requirements are given in ```requirements.txt```. 
